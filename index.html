@@ -388,13 +388,13 @@ cd TiamaT_app</pre>
             <button class="os-tab" onclick="switchTab(event,'win')">Windows</button>
           </div>
           <div id="tab-mac" class="os-panel active">
-<pre>python3 -m venv tiamat_env
-source tiamat_env/bin/activate
+<pre>python3 -m venv env
+source env/bin/activate
 pip install -r requirements.txt</pre>
           </div>
           <div id="tab-win" class="os-panel">
-<pre>python -m venv tiamat_env
-tiamat_env\Scripts\activate
+<pre>python -m venv env
+env\Scripts\activate
 pip install -r requirements.txt</pre>
           </div>
           <div class="install-note">
@@ -413,11 +413,11 @@ pip install -r requirements.txt</pre>
             <button class="os-tab" onclick="switchTab(event,'win2')">Windows</button>
           </div>
           <div id="tab-mac2" class="os-panel active">
-<pre>source .venv/bin/activate
+<pre>source env/bin/activate
 python run.py</pre>
           </div>
           <div id="tab-win2" class="os-panel">
-<pre>.venv\Scripts\activate
+<pre>env\Scripts\activate
 python run.py</pre>
           </div>
           <p style="margin-top:0.8rem">TiamaT will open in your browser at <code style="background:var(--cream); padding:2px 6px; border-radius:2px; font-size:13px;">http://127.0.0.1:5001</code></p>
